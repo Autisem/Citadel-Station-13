@@ -1,0 +1,40 @@
+"a" = (/turf/template_noop,/area/template_noop)
+"b" = (/mob/living/carbon,/turf/closed/wall/mineral/iron,/area/dwarf_fort)
+"c" = (/mob/living/carbon,/turf/open/floor/plasteel/dark,/area/dwarf_fort)
+"d" = (/obj/effect/mob_spawn/human/dwarf,/mob/living/carbon,/turf/open/floor/plasteel/dark,/area/dwarf_fort)
+"e" = (/obj/structure/mineral_door/iron,/obj/item/clothing/gloves/color/white,/mob/living/carbon,/turf/open/floor/plasteel/dark,/area/dwarf_fort)
+"f" = (/turf/open/lava,/turf/closed/mineral/gold/earth_like,/area/dwarf_fort)
+"g" = (/turf/open/floor/plasteel/dark,/turf/closed/mineral/gold/earth_like,/area/dwarf_fort)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+abbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abcddddcccccccccccccccccccccba
+abccccccccccccccccccccccccccba
+abccccccccccccccccccccccccccba
+abccccccccccccccccccccccccccba
+abccccccccccccccccccccccccccba
+abccccccccccccccccccccccccccba
+abccccccccccccccccccccccccccba
+abccccccccccccccccccccccccccba
+abccccccccccccccccccccccccccba
+abccccccccccccccccccccccccccba
+abccccccccccccccccccccccccccba
+abccccccccccccccccccccccccccba
+abccccccccccccccccccccccccccba
+abccccccccccccccccccccccccccba
+abccccccccccccccccccccccccccba
+abccccccccccccccccccccccccccba
+abccccccccccccccccccccccccccba
+abccccccccccccccccccccccccccba
+abccccccccccccccccccccccccccba
+abccccccccccccccccccccccccccba
+abccccccccccccccccccccccccccba
+abbbbbbbbbbbbeebbbbbbbbbbbbbba
+affffffffffffggffffffffffffffa
+affffffffffffggffffffffffffffa
+affffffffffffggffffffffffffffa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+"}

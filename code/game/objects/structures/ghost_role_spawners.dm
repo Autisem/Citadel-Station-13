@@ -696,3 +696,26 @@
 	new /obj/item/clothing/mask/chameleon(src)
 	new /obj/item/storage/backpack/chameleon(src)
 	new /obj/item/clothing/neck/cloak/chameleon(src)
+
+//Iam not sure how to properly implement this so ill add all the lavaland dwarf stuff here
+/obj/effect/mob_spawn/human/dwarf
+	name = "Dwarf spawner"
+	uses = 5
+	icon = 'icons/obj/machines/sleeper.dmi'
+	icon_state = "sleeper"
+	mob_name = "dwarf"
+	roundstart = FALSE
+	anchored = TRUE
+	density = FALSE
+	death = FALSE
+	assignedrole = "Dwarf"
+	flavour_text = "Your a proud people, build a grand fortres to call home"
+	skip_reentry_check = TRUE
+	assignedrole = "Dwarf"
+	
+/obj/item/dwarf/hammer
+	name = "Dwarven hammer"
+	desc = "A strong hammer, made by expert craftsman"
+	icon = 'icons/obj/items_and_weapons.dmi'
+	icon_state = "toyhammer"
+	force = 30

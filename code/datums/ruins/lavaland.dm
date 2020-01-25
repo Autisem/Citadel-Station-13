@@ -239,3 +239,11 @@
 	cost = 5
 	always_place = TRUE
 	allow_duplicates = TRUE 
+/datum/map_template/ruin/lavaland/dwarf_fort
+	name = "Dwarf fortress"
+	id = "dwarf_fort"
+	description = "Stumpy achololics live here and will build a damn fine fortress"
+	suffix = "lavaland_surface_dwarf_fortress.dmm"
+	always_place = TRUE
+	allow_duplicates = FALSE
+	cost = 5
