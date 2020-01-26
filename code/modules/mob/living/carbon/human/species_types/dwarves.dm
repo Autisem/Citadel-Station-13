@@ -46,6 +46,9 @@ GLOBAL_LIST_INIT(dwarf_last, world.file2list("strings/names/dwarf_last.txt")) //
 /proc/dwarf_name() //hello caller: my name is urist mcuristurister
 	return "[pick(GLOB.dwarf_first)] [pick(GLOB.dwarf_last)]"
 
+/proc/randome_unique_dwarf_name(attempts_to_find_unique_name=10)
+	for(var/i in 1 to attempts_to_find_unique_name)
+		. = capitalize(dwarf_name())
 /datum/species/dwarf/random_name(gender,unique,lastname)
 	return dwarf_name() //hello, ill return the value from dwarf_name proc to you when called.
 

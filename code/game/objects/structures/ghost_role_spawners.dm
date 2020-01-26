@@ -702,8 +702,10 @@
 	name = "Dwarf spawner"
 	uses = 5
 	icon = 'icons/obj/machines/sleeper.dmi'
+	mob_species = /datum/species/dwarf
 	icon_state = "sleeper"
-	mob_name = "dwarf"
+	mob_name = "Dwarf"
+	outfit = /datum/outfit/dwarf/migrant
 	roundstart = FALSE
 	anchored = TRUE
 	density = FALSE
@@ -712,10 +714,16 @@
 	flavour_text = "Your a proud people, build a grand fortres to call home"
 	skip_reentry_check = TRUE
 	assignedrole = "Dwarf"
+/obj/effect/mob_spawn/human/dwarf/special(mob/living/new_spawn)
+	new_spawn.real_name = randome_unique_dwarf_name(gender)
+	to_chat(new_spawn, "<b>Build a magnificent fort</b>")
+
+	new_spawn.grant_language(/datum/language/dwarf)
+	var/datum/language_holder/holder = new_spawn.get_language_holder()
+	holder.selected_default_language = /datum/language/dwarf
+
+	if(ishuman(new_spawn))
+		var/mob/living/carbon/human/H = new_spawn.name
+		H.underwear = "Nude"
+		H.update_body()
 	
-/obj/item/dwarf/hammer
-	name = "Dwarven hammer"
-	desc = "A strong hammer, made by expert craftsman"
-	icon = 'icons/obj/items_and_weapons.dmi'
-	icon_state = "toyhammer"
-	force = 30

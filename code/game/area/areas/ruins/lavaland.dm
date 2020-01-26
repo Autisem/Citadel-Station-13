@@ -87,3 +87,7 @@
 //ash walker nest
 /area/ruin/unpowered/ash_walkers
 	icon_state = "red"
+//dwarf fortress
+/area/ruin/powered/dwarf_fort
+	name = "Dwarf fortress"
+	icon_state = "yellow"

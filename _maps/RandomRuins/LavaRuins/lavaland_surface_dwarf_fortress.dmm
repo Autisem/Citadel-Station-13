@@ -1,10 +1,11 @@
 "a" = (/turf/template_noop,/area/template_noop)
-"b" = (/mob/living/carbon,/turf/closed/wall/mineral/iron,/area/dwarf_fort)
-"c" = (/mob/living/carbon,/turf/open/floor/plasteel/dark,/area/dwarf_fort)
-"d" = (/obj/effect/mob_spawn/human/dwarf,/mob/living/carbon,/turf/open/floor/plasteel/dark,/area/dwarf_fort)
-"e" = (/obj/structure/mineral_door/iron,/obj/item/clothing/gloves/color/white,/mob/living/carbon,/turf/open/floor/plasteel/dark,/area/dwarf_fort)
-"f" = (/turf/open/lava,/turf/closed/mineral/gold/earth_like,/area/dwarf_fort)
-"g" = (/turf/open/floor/plasteel/dark,/turf/closed/mineral/gold/earth_like,/area/dwarf_fort)
+"b" = (/turf/closed/wall/mineral/iron,/area/ruin/powered/dwarf_fort)
+"c" = (/turf/open/floor/plasteel/dark,/area/ruin/powered/dwarf_fort)
+"d" = (/obj/effect/mob_spawn/human/dwarf,/turf/open/floor/plasteel/dark,/area/ruin/powered/dwarf_fort)
+"e" = (/obj/machinery/mineral/processing_unit/dwarf,/turf/open/floor/plasteel/dark,/area/ruin/powered/dwarf_fort)
+"f" = (/obj/machinery/dwarf/anvil,/turf/open/floor/plasteel/dark,/area/ruin/powered/dwarf_fort)
+"g" = (/obj/structure/mineral_door/iron,/turf/open/floor/plasteel/dark,/area/ruin/powered/dwarf_fort)
+"h" = (/turf/open/lava,/area/ruin/powered/dwarf_fort)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -12,6 +13,7 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 abbbbbbbbbbbbbbbbbbbbbbbbbbbba
 abcddddcccccccccccccccccccccba
 abccccccccccccccccccccccccccba
+abceccfcccccccccccccccccccccba
 abccccccccccccccccccccccccccba
 abccccccccccccccccccccccccccba
 abccccccccccccccccccccccccccba
@@ -30,11 +32,10 @@ abccccccccccccccccccccccccccba
 abccccccccccccccccccccccccccba
 abccccccccccccccccccccccccccba
 abccccccccccccccccccccccccccba
-abccccccccccccccccccccccccccba
-abbbbbbbbbbbbeebbbbbbbbbbbbbba
-affffffffffffggffffffffffffffa
-affffffffffffggffffffffffffffa
-affffffffffffggffffffffffffffa
+abbbbbbbbbbbbggbbbbbbbbbbbbbba
+ahhhhhhhhhhhhcchhhhhhhhhhhhhha
+ahhhhhhhhhhhhcchhhhhhhhhhhhhha
+ahhhhhhhhhhhhcchhhhhhhhhhhhhha
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 "}
